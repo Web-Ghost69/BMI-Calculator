@@ -1,0 +1,80 @@
+*
+{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+body
+{
+    background-color: #FF9EAA;
+}
+
+.Container
+{
+    height: 43rem;
+    width: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    user-select: none;
+    background-color: #FFD0D0;
+    border: 5px solid  #3AA6B9;
+}
+.Form
+{
+    height: 20rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%
+}
+
+input
+{
+ width: 20rem;
+ margin: 3%;
+ height: 2rem;
+ border-radius: 1rem;
+ border:1px solid lightgray;
+ padding: 5%;
+ background-color: rgba(255, 255,255,0.2);
+}
+
+.btn
+{
+    height: 2rem;
+    width: 8rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #3AA6B9;
+    color: #FFF;
+}
+.Msg
+{
+height:5rem;
+width: 20rem;
+text-align: center;
+}
+.Points
+{
+     height:10rem;
+    width: 25rem;
+    text-align: center;
+    border: 2px solid  #3AA6B9;
+    padding-top: 2%;
+    border-radius: 1rem;
+    background-color:#3AA6B9;
+}
+.Points p
+{
+    margin-top: 2%;
+    color: #FFF;
+}
